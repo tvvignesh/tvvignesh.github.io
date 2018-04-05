@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -325,193 +325,6 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.lhtml {
-  	width: 95%;
-  	-moz-animation: lhtml 2s ease;
-  	-webkit-animation: lhtml 2s ease;
-}
-.lcss {
-  	width: 85%;
-  	-moz-animation: lcss 2s ease;
-  	-webkit-animation: lcss 2s ease;
-}
-.ljs {
-  	width: 90%;
-  	-moz-animation: ljs 2s ease;
-  	-webkit-animation: ljs 2s ease;
-}
-.lnodejs {
-  	width: 90%;
-  	-moz-animation: lnodejs 2s ease;
-  	-webkit-animation: lnodejs 2s ease;
-}
-.lmongo {
-  	width: 80%;
-  	-moz-animation: lmongo 2s ease;
-  	-webkit-animation: lmongo 2s ease;
-}
-.lphp {
-  	width: 70%;
-  	-moz-animation: lphp 2s ease;
-  	-webkit-animation: lphp 2s ease;
-}
-.lmysql {
-  	width: 70%;
-  	-moz-animation: lmysql 2s ease;
-  	-webkit-animation: lmysql 2s ease;
-}
-.langularjs {
-  	width: 90%;
-  	-moz-animation: langularjs 2s ease;
-  	-webkit-animation: langularjs 2s ease;
-}
-.ljquery {
-  	width: 85%;
-  	-moz-animation: ljquery 2s ease;
-  	-webkit-animation: ljquery 2s ease;
-}
-.lbootstrap {
-  	width: 95%;
-  	-moz-animation: lbootstrap 2s ease;
-  	-webkit-animation: lbootstrap 2s ease;
-}
-.lcpp {
-  	width: 70%;
-  	-moz-animation: lcpp 2s ease;
-  	-webkit-animation: lcpp 2s ease;
-}
-.lionic {
-  	width: 80%;
-  	-moz-animation: lionic 2s ease;
-  	-webkit-animation: lionic 2s ease;
-}
-.lgit {
-  	width: 80%;
-  	-moz-animation: lgit 2s ease;
-  	-webkit-animation: lgit 2s ease;
-}
-.liot {
-  	width: 60%;
-  	-moz-animation: liot 2s ease;
-  	-webkit-animation: liot 2s ease;
-}
-
-@-moz-keyframes lhtml {
-  0%   { width: 0px;  }
-  100% { width: 95%;  }
-}
-@-moz-keyframes lcss {
-  0%   { width: 0px;  }
-  100% { width: 85%;  }
-}
-@-moz-keyframes ljs {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes lnodejs {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes lmongo {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes lphp {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-moz-keyframes lmysql {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-moz-keyframes langularjs {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes ljquery {
-  0%   { width: 0px;  }
-  100% { width: 85%;  }
-}
-@-moz-keyframes lbootstrap {
-  0%   { width: 0px;  }
-  100% { width: 95%;  }
-}
-@-moz-keyframes lcpp {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-moz-keyframes lionic {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes lgit {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes liot {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-
-
-
-@-webkit-keyframes lhtml {
-  0%   { width: 0px;  }
-  100% { width: 95%;  }
-}
-@-webkit-keyframes lcss {
-  0%   { width: 0px;  }
-  100% { width: 85%;  }
-}
-@-webkit-keyframes ljs {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes lnodejs {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes lmongo {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes lphp {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-webkit-keyframes lmysql {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-webkit-keyframes langularjs {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes ljquery {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes lbootstrap {
-  0%   { width: 0px;  }
-  100% { width: 95%;  }
-}
-@-webkit-keyframes lcpp {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-webkit-keyframes lionic {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes lgit {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes liot {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -688,7 +501,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #212121;
+   background: #dcdcdc;
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -696,25 +509,23 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: #313131;
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f09b";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
+    padding-right: 10px;
+	  font-size: 72px;
+    line-height: 72px;
+    text-align: left;
+    float: left;
+    color: #313131;
 }
 #call-to-action .action {
    margin-top: 12px;
 }
 #call-to-action h2 {
    font: 28px/36px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: #313131;
    margin-bottom: 6px;
 }
 #call-to-action h2 a {

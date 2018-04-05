@@ -28,7 +28,8 @@ e. Others
 
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
-@import url("font-awesome/css/font-awesome.min.css");
+/* @import url("font-awesome/css/font-awesome.min.css"); */
+@import url("fontawesome/web-fonts-with-css/css/fontawesome-all.min.css");
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -802,6 +803,26 @@ properly.
 	text-align: center !important;
 }
 
+.skill {
+    margin-bottom: 10px;
+}
 
+.skillcontainer {
+  width: 100%;
+  background-color: #ddd;
+}
 
+.skillbar {
+  text-align: right;
+  padding-right: 20px;
+  color: white;
+}
 
+.skilltext {
+    margin: 0px;
+    font: 15px 'opensans-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
