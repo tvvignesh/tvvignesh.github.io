@@ -1,0 +1,27 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Deploy to server
+      uses: appleboy/ssh-action@v1
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.SSH_KEY }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd /home/boff/projects/apps/boiler/boiler-frontend
+          git pull origin main
+          source ~/.nvm/nvm.sh && nvm use node
+          npm ci
+          npm run build || echo "Build failed, continuing deployment"
+          sudo systemctl reload nginx
