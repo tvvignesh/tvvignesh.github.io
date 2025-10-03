@@ -45,6 +45,7 @@ jobs:
           echo "🚀 Starting portfolio deployment..."
           
           # Navigate to project directory
+          echo "Navigating to project directory..."
           cd /home/boff/projects/personal/tvvignesh.github.io
           
           # Backup current dist folder
