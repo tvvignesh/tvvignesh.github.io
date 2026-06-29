@@ -40,7 +40,7 @@ const architecturalExcellence = {
     "OAuth2/OIDC", "Multi-Tenant Security", "Audit Trails", "Privacy-by-Design"
   ],
   "Data & Integration": [
-    "Semantic Web Technologies", "RDF/OWL Ontologies", "SPARQL Queries", "Neo4j Graph Databases", 
+    "Semantic Web Technologies", "RDF/OWL Ontologies", "SPARQL Queries", "Apache AGE Graph",
     "Data Federation", "Real-Time Streaming", "ETL Pipelines", "Data Sovereignty"
   ],
   "Performance Engineering": [
@@ -58,7 +58,7 @@ const experience = [
   {
     company: "Healthy Bowl Agro Foods",
     role: "Founder, CEO & CTO",
-    period: "Oct 2023 - Present",
+    period: "Jan 2023 - Present",
     description: "Founded organic farming and healthy food products company focused on sustainable agriculture and promoting nutritious food choices."
   },
   {
@@ -75,8 +75,8 @@ const experience = [
   },
   {
     company: "BurdenOff Consultancy Services",
-    role: "Founder, CEO & CTO", 
-    period: "Jan 2022 - Present",
+    role: "Founder, CEO & CTO",
+    period: "Feb 2022 - Present",
     description: "Holding company acting as headwater to amazing businesses, creating revolution to empower every life through continuous innovation, delivery and feedback."
   },
   {
@@ -208,22 +208,22 @@ export function HomePage() {
   return (
     <>
       {/* React 19 Metadata Support */}
-      <title>Vignesh T.V - Entrepreneur & Product Builder | 31+ AI-Native Enterprise Platforms</title>
-      <meta name="description" content="Building 31+ AI-native enterprise platforms spanning creator economy, wealth management, education technology, and developer infrastructure. Entrepreneur, Software Architect & Product Builder." />
-      <meta name="keywords" content="Vignesh T.V, AI-native platforms, enterprise software, product builder, ArtistryBase, BigConsole, Botlit, BrainyRich, AssetHandler, BuildMyIQ, entrepreneur, software architect" />
-      
+      <title>Vignesh T.V - Entrepreneur & Product Builder | 38 AI-Native Enterprise Platforms</title>
+      <meta name="description" content="Building 38 AI-native enterprise platforms spanning creator economy, wealth management, education technology, agriculture, and developer infrastructure. Entrepreneur, Software Architect & Product Builder." />
+      <meta name="keywords" content="Vignesh T.V, AI-native platforms, enterprise software, product builder, VibeControls, Workspaces, BigConsole, FluidGrids, HealthyBowl, Botlit, entrepreneur, software architect" />
+
       {/* Open Graph */}
       <meta property="og:title" content="Vignesh T.V - Product Portfolio Showcase | Building the Future of Intelligent Platforms" />
-      <meta property="og:description" content="Developing 31+ AI-native enterprise platforms with $150M+ revenue potential. Featured products: ArtistryBase (Creator Economy), BigConsole (Data Viz), Botlit (AI Bots), BrainyRich (Wealth Mgmt)" />
+      <meta property="og:description" content="Building a 38-product AI-native enterprise ecosystem on one shared platform. VibeControls is live; BigConsole, FluidGrids & HealthyBowl launch August 2026, with the rest rolling out through 2026." />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://tvvignesh.com/" />
       <meta property="og:image" content="https://tvvignesh.com/images/profilepic1.jpg" />
-      
+
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content="@techahoy" />
-      <meta name="twitter:title" content="Vignesh T.V - Building 31+ AI-Native Enterprise Platforms" />
-      <meta name="twitter:description" content="Product Portfolio Showcase: ArtistryBase, BigConsole, Botlit, BrainyRich, AssetHandler & more. $150M+ revenue potential across AI-native enterprise solutions." />
+      <meta name="twitter:title" content="Vignesh T.V - Building 38 AI-Native Enterprise Platforms" />
+      <meta name="twitter:description" content="A 38-product AI-native enterprise ecosystem on one shared platform — VibeControls live now, more launching through 2026." />
       <meta name="twitter:image" content="https://tvvignesh.com/images/profilepic1.jpg" />
       
       <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 flex flex-col">
@@ -317,8 +317,8 @@ export function HomePage() {
               <span className="text-base sm:text-lg block sm:inline mt-2 sm:mt-0">Building the Future of Intelligent Platforms & Agriculture</span>
             </h2>
             <p className="text-base sm:text-lg text-gray-400 max-w-4xl mx-auto mt-4 animate-slideInRight px-4 leading-relaxed">
-              Developing an ecosystem of <span className="font-bold text-2xl text-blue-400">31+</span>{" "}
-              <span className="font-semibold text-red-400">AI-native enterprise platforms</span> spanning creator economy, 
+              Developing an ecosystem of <span className="font-bold text-2xl text-blue-400">38</span>{" "}
+              <span className="font-semibold text-red-400">AI-native enterprise platforms</span> spanning creator economy,
               wealth management, education technology, agriculture, and developer infrastructure.
             </p>
             
@@ -467,18 +467,18 @@ export function HomePage() {
               <div className="scroll-reveal-left stagger-1">
                 <h3 className="text-2xl font-bold text-white mb-6">Burdenoff Products Ecosystem</h3>
                 <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                  I'm developing an ecosystem of <strong>31+ intelligent software platforms</strong> that represent the 
-                  cutting edge of AI-native enterprise solutions. My work spans multiple verticals including creator economy 
-                  platforms, enterprise AI automation, wealth management, education technology, and developer infrastructure.
+                  I'm developing an ecosystem of <strong>38 intelligent software platforms</strong> that represent the
+                  cutting edge of AI-native enterprise solutions. My work spans multiple verticals including creator economy
+                  platforms, enterprise AI automation, wealth management, education technology, agriculture, and developer infrastructure.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-gray-800 rounded-lg shadow">
-                    <div className="text-3xl font-bold text-blue-400">31+</div>
-                    <div className="text-sm text-gray-300">Product Ecosystems</div>
+                    <div className="text-3xl font-bold text-blue-400">38</div>
+                    <div className="text-sm text-gray-300">Products</div>
                   </div>
                   <div className="text-center p-4 bg-gray-800 rounded-lg shadow">
-                    <div className="text-3xl font-bold text-green-400">$150M+</div>
-                    <div className="text-sm text-gray-300">Revenue Potential</div>
+                    <div className="text-3xl font-bold text-green-400">17</div>
+                    <div className="text-sm text-gray-300">Industry Verticals</div>
                   </div>
                 </div>
               </div>
@@ -492,7 +492,7 @@ export function HomePage() {
                   </div>
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-green-600 rounded-full mr-4"></div>
-                    <span className="text-gray-300"><strong>Production-Ready SDKs</strong> serving developer communities</span>
+                    <span className="text-gray-300"><strong>Production-Ready SDKs</strong> and shared platform services</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-purple-600 rounded-full mr-4"></div>
@@ -549,27 +549,27 @@ export function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {/* ArtistryBase */}
+            {/* VibeControls */}
             <div className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300 hover-lift-lg scroll-reveal-scale stagger-1">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-purple-600 rounded-lg flex items-center justify-center mr-3 sm:mr-4">
-                  <span className="text-white font-bold text-lg sm:text-xl">🎨</span>
+                  <span className="text-white font-bold text-lg sm:text-xl">🎛️</span>
                 </div>
                 <div>
-                  <h3 className="text-lg sm:text-xl font-bold text-white">ArtistryBase</h3>
-                  <p className="text-purple-400 text-xs sm:text-sm">Creator Economy OS</p>
+                  <h3 className="text-lg sm:text-xl font-bold text-white">VibeControls</h3>
+                  <p className="text-purple-400 text-xs sm:text-sm">Developer Productivity Platform</p>
                 </div>
               </div>
               <p className="text-gray-300 mb-4 text-sm sm:text-sm leading-relaxed">
-                Unified AI-powered platform replacing the entire creator toolchain with intelligent multi-format content engine, rights management, and integrated monetization.
+                Developer-productivity and environment-orchestration platform — environment orchestration, code management, deployment automation, and real-time collaboration.
               </p>
               <div className="flex flex-wrap gap-1 sm:gap-2 mb-3">
-                <span className="px-2 py-1 text-xs bg-purple-900/50 text-purple-200 rounded">AI Content</span>
-                <span className="px-2 py-1 text-xs bg-pink-900/50 text-pink-200 rounded">Rights Mgmt</span>
-                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">$104B Market</span>
+                <span className="px-2 py-1 text-xs bg-purple-900/50 text-purple-200 rounded">Dev Tools</span>
+                <span className="px-2 py-1 text-xs bg-pink-900/50 text-pink-200 rounded">Orchestration</span>
+                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">Real-Time</span>
               </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                <strong>Target:</strong> 50M+ creators globally
+              <div className="text-sm text-green-400 font-medium">
+                ● Live — app.vibecontrols.com
               </div>
             </div>
 
@@ -585,15 +585,15 @@ export function HomePage() {
                 </div>
               </div>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Revolutionary data visualization with AI narrative engine, VR/AR exploration, quantum processing, and biometric UI adaptation.
+                Dashboard and data-visualization platform with AI-powered insights, dynamic real-time dashboards, and a modular component system.
               </p>
               <div className="flex flex-wrap gap-2 mb-3">
-                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">AI Narrative</span>
-                <span className="px-2 py-1 text-xs bg-cyan-900/50 text-cyan-200 rounded">VR/AR</span>
-                <span className="px-2 py-1 text-xs bg-green-900/50 text-green-200 rounded">$23.8B Market</span>
+                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">AI Insights</span>
+                <span className="px-2 py-1 text-xs bg-cyan-900/50 text-cyan-200 rounded">Data Viz</span>
+                <span className="px-2 py-1 text-xs bg-green-900/50 text-green-200 rounded">Dashboards</span>
               </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                <strong>Projection:</strong> $2M→$150M ARR
+              <div className="text-sm text-blue-400 font-medium">
+                ◷ Launching 1 Aug 2026
               </div>
             </div>
 
@@ -609,97 +609,97 @@ export function HomePage() {
                 </div>
               </div>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                First platform combining agentic AI with "Bot Buckets" organizational system. Multi-modal intelligence with chain-of-thought reasoning.
+                Multi-tenant AI platform with a RAG pipeline for building intelligent chatbots — knowledge-base integration, bot management, and MCP integration.
               </p>
               <div className="flex flex-wrap gap-2 mb-3">
                 <span className="px-2 py-1 text-xs bg-green-900/50 text-green-200 rounded">Agentic AI</span>
-                <span className="px-2 py-1 text-xs bg-emerald-900/50 text-emerald-200 rounded">Multi-Modal</span>
-                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">MCP Protocol</span>
+                <span className="px-2 py-1 text-xs bg-emerald-900/50 text-emerald-200 rounded">RAG</span>
+                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">MCP</span>
               </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                <strong>Unique:</strong> Only workflow + agentic AI + bot mgmt
+              <div className="text-sm text-purple-400 font-medium">
+                ⚙ In development — launching 2026
               </div>
             </div>
 
-            {/* BrainyRich */}
+            {/* Workspaces */}
             <div className="bg-gradient-to-br from-yellow-900/20 to-orange-900/20 rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300 hover-lift-lg scroll-reveal-scale stagger-4">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-yellow-600 rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-white font-bold text-xl">💰</span>
+                  <span className="text-white font-bold text-xl">🗂️</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">BrainyRich</h3>
-                  <p className="text-yellow-400 text-sm">AI Wealth Management</p>
+                  <h3 className="text-xl font-bold text-white">Workspaces</h3>
+                  <p className="text-yellow-400 text-sm">Enterprise Collaboration Core</p>
                 </div>
               </div>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                End-to-end wealth management with AI analytics, multi-role architecture, regulatory compliance engine, and automated estate planning.
+                Team collaboration and workspace management with 31+ modules — project management, communication, file sharing, workflow automation, and AI-agent integration.
               </p>
               <div className="flex flex-wrap gap-2 mb-3">
-                <span className="px-2 py-1 text-xs bg-yellow-900/50 text-yellow-200 rounded">AI Analytics</span>
-                <span className="px-2 py-1 text-xs bg-orange-900/50 text-orange-200 rounded">Compliance</span>
-                <span className="px-2 py-1 text-xs bg-red-900/50 text-red-200 rounded">Zero-Trust</span>
+                <span className="px-2 py-1 text-xs bg-yellow-900/50 text-yellow-200 rounded">Collaboration</span>
+                <span className="px-2 py-1 text-xs bg-orange-900/50 text-orange-200 rounded">Multi-Tenant</span>
+                <span className="px-2 py-1 text-xs bg-red-900/50 text-red-200 rounded">AI Agents</span>
               </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                <strong>Security:</strong> SOC 2 Type II compliant
+              <div className="text-sm text-green-400 font-medium">
+                ● Live
               </div>
             </div>
 
-            {/* AssetHandler */}
+            {/* FluidGrids */}
             <div className="bg-gradient-to-br from-indigo-900/20 to-purple-900/20 rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300 hover-lift-lg scroll-reveal-scale stagger-5">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-white font-bold text-xl">🏭</span>
+                  <span className="text-white font-bold text-xl">⚡</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">AssetHandler</h3>
-                  <p className="text-indigo-400 text-sm">Intelligent Asset Management</p>
+                  <h3 className="text-xl font-bold text-white">FluidGrids</h3>
+                  <p className="text-indigo-400 text-sm">Visual Workflow Automation</p>
                 </div>
               </div>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                AI-powered asset management with predictive maintenance, IoT tracking, ITIL compliance, and internal marketplace capabilities.
+                Drag-and-drop workflow builder with node-based execution and AI-powered automation — the universal automation layer across the ecosystem.
               </p>
               <div className="flex flex-wrap gap-2 mb-3">
-                <span className="px-2 py-1 text-xs bg-indigo-900/50 text-indigo-200 rounded">Predictive AI</span>
-                <span className="px-2 py-1 text-xs bg-purple-900/50 text-purple-200 rounded">IoT Tracking</span>
-                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">ITIL Ready</span>
+                <span className="px-2 py-1 text-xs bg-indigo-900/50 text-indigo-200 rounded">Automation</span>
+                <span className="px-2 py-1 text-xs bg-purple-900/50 text-purple-200 rounded">Visual Builder</span>
+                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">Integrations</span>
               </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                <strong>Scale:</strong> 1M+ assets per tenant
+              <div className="text-sm text-blue-400 font-medium">
+                ◷ Launching 1 Aug 2026
               </div>
             </div>
 
-            {/* BuildMyIQ */}
+            {/* HealthyBowl */}
             <div className="bg-gradient-to-br from-teal-900/20 to-green-900/20 rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300 hover-lift-lg scroll-reveal-scale stagger-6">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-teal-600 rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-white font-bold text-xl">🎓</span>
+                  <span className="text-white font-bold text-xl">🌱</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">BuildMyIQ</h3>
-                  <p className="text-teal-400 text-sm">Intelligent Education Platform</p>
+                  <h3 className="text-xl font-bold text-white">HealthyBowl</h3>
+                  <p className="text-teal-400 text-sm">Organic Farming Ecosystem</p>
                 </div>
               </div>
               <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                Multi-tenant SaaS combining LMS, SIS, and AI tutoring. Adaptive learning engine with predictive analytics for student success.
+                Agro-foods platform for the organic and natural farming ecosystem — weather intelligence, crop management, value-added products, and community.
               </p>
               <div className="flex flex-wrap gap-2 mb-3">
-                <span className="px-2 py-1 text-xs bg-teal-900/50 text-teal-200 rounded">Adaptive AI</span>
-                <span className="px-2 py-1 text-xs bg-green-900/50 text-green-200 rounded">Predictive</span>
-                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">FERPA</span>
+                <span className="px-2 py-1 text-xs bg-teal-900/50 text-teal-200 rounded">AgriTech</span>
+                <span className="px-2 py-1 text-xs bg-green-900/50 text-green-200 rounded">Supply Chain</span>
+                <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-200 rounded">Community</span>
               </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                <strong>Performance:</strong> 100K+ concurrent users
+              <div className="text-sm text-blue-400 font-medium">
+                ◷ Launching 1 Aug 2026
               </div>
             </div>
           </div>
 
           <div className="text-center mt-12">
             <p className="text-lg text-gray-300">
-              <a href="https://burdenoff.com" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-400 hover:text-blue-300 transition-colors underline">
-                + 25 more products
-              </a> in development spanning developer tools, 
-              data federation, family platforms, and enterprise infrastructure
+              <a href="https://burdenoff.com/products" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-400 hover:text-blue-300 transition-colors underline">
+                + 32 more products
+              </a> in development — launching through 2026 — spanning developer tools,
+              data federation, education, logistics, healthcare, and enterprise infrastructure
             </p>
           </div>
         </div>
@@ -1020,11 +1020,11 @@ export function HomePage() {
                   <div className="flex items-start">
                     <CheckCircle className="h-6 w-6 text-green-600 mt-1 mr-4" />
                     <div>
-                      <h4 className="text-lg font-semibold text-white mb-2">Production Ready ✅</h4>
+                      <h4 className="text-lg font-semibold text-white mb-2">Launched ✅</h4>
                       <ul className="text-gray-300 space-y-1">
-                        <li>• Burdenoff SDKs (Frontend & Backend)</li>
-                        <li>• Boilerplates Collection</li>
-                        <li>• FluidGrids Core Engine</li>
+                        <li>• VibeControls (live — app.vibecontrols.com)</li>
+                        <li>• Workspaces (live)</li>
+                        <li>• Shared platform, SDKs & FluidGrids core engine</li>
                       </ul>
                     </div>
                   </div>
@@ -1034,12 +1034,11 @@ export function HomePage() {
                   <div className="flex items-start">
                     <Hammer className="h-6 w-6 text-blue-600 mt-1 mr-4" />
                     <div>
-                      <h4 className="text-lg font-semibold text-white mb-2">Development Complete 🔨</h4>
+                      <h4 className="text-lg font-semibold text-white mb-2">Launching 1 August 2026 🚀</h4>
                       <ul className="text-gray-300 space-y-1">
-                        <li>• ArtistryBase (Ready for implementation)</li>
-                        <li>• BigConsole (Executive-ready with financial modeling)</li>
-                        <li>• Botlit (Full architecture and APIs defined)</li>
-                        <li>• AssetHandler (Complete technical specifications)</li>
+                        <li>• BigConsole (AI-powered dashboards)</li>
+                        <li>• FluidGrids (visual workflow automation)</li>
+                        <li>• HealthyBowl (organic farming ecosystem)</li>
                       </ul>
                     </div>
                   </div>
@@ -1049,12 +1048,11 @@ export function HomePage() {
                   <div className="flex items-start">
                     <Zap className="h-6 w-6 text-purple-600 mt-1 mr-4" />
                     <div>
-                      <h4 className="text-lg font-semibold text-white mb-2">Active Development ⚡</h4>
+                      <h4 className="text-lg font-semibold text-white mb-2">In Development ⚡</h4>
                       <ul className="text-gray-300 space-y-1">
-                        <li>• SemanticFed (Working demo, production features)</li>
-                        <li>• BrainyRich (Technical design complete)</li>
-                        <li>• BuildMyIQ (Platform architecture ready)</li>
-                        <li>• CollabKin (System design finalized)</li>
+                        <li>• Botlit, BrainyRich, BuildMyIQ, AssetHandler</li>
+                        <li>• SemanticFed, CollabKin, CrewFoundry & more</li>
+                        <li>• 30+ products rolling out through 2026</li>
                       </ul>
                     </div>
                   </div>
@@ -1072,7 +1070,7 @@ export function HomePage() {
                     Bringing production-ready platforms to market with strategic partners for accelerated growth and market penetration.
                   </p>
                   <div className="text-sm text-blue-400 font-medium">
-                    Conservative estimates: $150M+ revenue potential within 5 years
+                    Taking a 38-product AI-native portfolio to market through 2026
                   </div>
                 </div>
 
@@ -1188,7 +1186,7 @@ export function HomePage() {
                 <div className="space-y-2 text-sm text-gray-300">
                   <div className="flex items-center">
                     <GraduationCap className="h-4 w-4 text-blue-600 mr-2" />
-                    PhD Computer Science (2023-2027) - SRM University
+                    PhD Computer Science, SRM University (2023-2027) — Research: Control, Data & Management Plane for the Semantic Web
                   </div>
                   <div className="flex items-center">
                     <GraduationCap className="h-4 w-4 text-green-600 mr-2" />
