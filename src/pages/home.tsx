@@ -32,23 +32,23 @@ const architecturalExcellence = {
     "Claude Integration", "Chain-of-Thought Reasoning", "Multi-Modal Intelligence", "Predictive Analytics", "Real-Time AI Processing"
   ],
   "Microservices Excellence": [
-    "Container-Native Design", "Kubernetes Orchestration", "GraphQL Federation", "Event-Driven Architecture", 
+    "Container-Native Design", "Cloud-Native Deployment", "Unified API Design", "Event-Driven Architecture",
     "API-First Design", "Service Mesh", "Circuit Breakers", "Distributed Tracing", "Horizontal Scaling"
   ],
   "Enterprise Security": [
-    "Zero-Trust Architecture", "End-to-End Encryption", "SOC 2 Type II", "GDPR Compliance", "FERPA Compliance", 
+    "Zero-Trust Architecture", "End-to-End Encryption", "SOC 2 Type II", "GDPR Compliance", "FERPA Compliance",
     "OAuth2/OIDC", "Multi-Tenant Security", "Audit Trails", "Privacy-by-Design"
   ],
   "Data & Integration": [
-    "Semantic Web Technologies", "RDF/OWL Ontologies", "SPARQL Queries", "Apache AGE Graph",
-    "Data Federation", "Real-Time Streaming", "ETL Pipelines", "Data Sovereignty"
+    "Semantic Web Technologies", "RDF/OWL Ontologies", "SPARQL Queries", "Knowledge Graphs",
+    "Connected Data", "Real-Time Streaming", "ETL Pipelines", "Data Sovereignty"
   ],
   "Performance Engineering": [
-    "Sub-Second Response Times", "99.9% Uptime SLAs", "Elastic Scaling", "Multi-Region Deployment", 
+    "Sub-Second Response Times", "99.9% Uptime SLAs", "Elastic Scaling", "Multi-Region Deployment",
     "CDN Integration", "Database Optimization", "Caching Strategies", "Load Balancing"
   ],
   "Developer Experience": [
-    "Production SDKs", "GraphQL Code Generation", "TypeScript Excellence", "Comprehensive Documentation", 
+    "Production SDKs", "Typed API Tooling", "Type-Safe Engineering", "Comprehensive Documentation",
     "API Design", "Developer Tooling", "Boilerplate Templates", "CI/CD Automation"
   ]
 }
@@ -101,7 +101,7 @@ const experience = [
     company: "Ramco Cements Limited",
     role: "Project Management and Full Stack Development",
     period: "Mar 2021 - Aug 2022",
-    description: "Built headless CMS backed website using Strapi, React, Postgres, TailwindCSS, and GraphQL for enterprise client."
+    description: "Built headless CMS backed website using Strapi, React, and GraphQL for enterprise client."
   },
   {
     company: "The Guild Software",
@@ -699,7 +699,7 @@ export function HomePage() {
               <a href="https://burdenoff.com/products" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-400 hover:text-blue-300 transition-colors underline">
                 + 32 more products
               </a> in development — launching through 2026 — spanning developer tools,
-              data federation, education, logistics, healthcare, and enterprise infrastructure
+              data integration, education, logistics, healthcare, and enterprise infrastructure
             </p>
           </div>
         </div>
@@ -907,7 +907,7 @@ export function HomePage() {
                 <h3 className="text-xl font-bold text-white">GraphQL Ecosystem Walkthrough</h3>
               </div>
               <p className="text-gray-300 mb-4 leading-relaxed">
-                A comprehensive walkthrough of the GraphQL ecosystem showcasing fully typed end-to-end architectures with React TypeScript frontend, GraphQL Code Generator, and GraphQL Yoga server.
+                A comprehensive walkthrough of the GraphQL ecosystem showcasing fully typed end-to-end architectures with React and TypeScript frontend and a production GraphQL server.
               </p>
               <a
                 href="https://www.youtube.com/watch?v=2j6xxtj5rjE"
