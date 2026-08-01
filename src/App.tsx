@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router'
 import { Toaster } from 'sonner'
 import { HomePage } from '@/pages/home'
 import './styles/globals.css'

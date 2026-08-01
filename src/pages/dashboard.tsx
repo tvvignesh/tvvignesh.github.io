@@ -1,6 +1,6 @@
 import { useAuth } from '@/hooks/use-auth'
 import { Button } from '@/components/ui/button'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router'
 
 export function DashboardPage() {
   const { user, logout } = useAuth()
