@@ -81,7 +81,7 @@ All platforms follow enterprise-grade microservices patterns:
 
 ---
 
-### 🤖 **Botlit** - Enterprise AI Bot Management Platform
+### 🤖 **BotManor** - Enterprise AI Bot Management Platform
 *Democratizing intelligent automation through agentic AI*
 
 **The Problem**: Current bot platforms are limited to rule-based automation and lack enterprise-grade management capabilities.
@@ -266,7 +266,7 @@ All platforms follow enterprise-grade microservices patterns:
 ### **Development Complete** 🔨
 - ArtistryBase (Ready for implementation)
 - BigConsole (Executive-ready with financial modeling)
-- Botlit (Full architecture and APIs defined)
+- BotManor (Full architecture and APIs defined)
 - AssetHandler (Complete technical specifications)
 
 ### **Architecture Defined** 📋
