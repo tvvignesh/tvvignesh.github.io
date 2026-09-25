@@ -210,7 +210,7 @@ export function HomePage() {
       {/* React 19 Metadata Support */}
       <title>Vignesh T.V - Entrepreneur & Product Builder | 38 AI-Native Enterprise Platforms</title>
       <meta name="description" content="Building 38 AI-native enterprise platforms spanning creator economy, wealth management, education technology, agriculture, and developer infrastructure. Entrepreneur, Software Architect & Product Builder." />
-      <meta name="keywords" content="Vignesh T.V, AI-native platforms, enterprise software, product builder, VibeControls, Workspaces, BigConsole, FluidGrids, HealthyBowl, Botlit, entrepreneur, software architect" />
+      <meta name="keywords" content="Vignesh T.V, AI-native platforms, enterprise software, product builder, VibeControls, Workspaces, BigConsole, FluidGrids, HealthyBowl, BotManor, entrepreneur, software architect" />
 
       {/* Open Graph */}
       <meta property="og:title" content="Vignesh T.V - Product Portfolio Showcase | Building the Future of Intelligent Platforms" />
@@ -597,14 +597,14 @@ export function HomePage() {
               </div>
             </div>
 
-            {/* Botlit */}
+            {/* BotManor */}
             <div className="bg-gradient-to-br from-green-900/20 to-emerald-900/20 rounded-lg shadow-lg p-4 sm:p-6 hover:shadow-xl transition-all duration-300 hover-lift-lg scroll-reveal-scale stagger-3">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mr-4">
                   <span className="text-white font-bold text-xl">🤖</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">Botlit</h3>
+                  <h3 className="text-xl font-bold text-white">BotManor</h3>
                   <p className="text-green-400 text-sm">Enterprise AI Bot Platform</p>
                 </div>
               </div>
@@ -1050,7 +1050,7 @@ export function HomePage() {
                     <div>
                       <h4 className="text-lg font-semibold text-white mb-2">In Development ⚡</h4>
                       <ul className="text-gray-300 space-y-1">
-                        <li>• Botlit, BrainyRich, BuildMyIQ, AssetHandler</li>
+                        <li>• BotManor, BrainyRich, BuildMyIQ, AssetHandler</li>
                         <li>• SemanticFed, CollabKin, CrewFoundry & more</li>
                         <li>• 30+ products rolling out through 2026</li>
                       </ul>
